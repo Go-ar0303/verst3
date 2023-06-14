@@ -1,0 +1,148 @@
+body {
+    width: 1250px;
+    height: 3300px;
+    border: 1px solid black;
+    margin: 35px;
+    padding: 25px;
+    background: linear-gradient(#E2C1AE 0%, #E3D0BE 12.64%, #E4F1E1 41.67%, rgba(235, 211, 204, 0.919643) 59.37%, rgba(225, 184, 184, 0) 100%);
+
+}
+
+.log {
+    margin-top: 35px;
+}
+
+.menu {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: -90px;
+
+}
+
+.right a {
+    padding: 25px 15px;
+    font-family: 'Lobster', cursive;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(51, 78, 78);
+}
+
+.header {
+    background: url(svadba_na_prirode\ 1.png);
+    background-repeat: no-repeat;
+    width: auto;
+    margin-left: 5px;
+    width: 100%;
+    height: 460px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 58px;
+}
+
+.main {
+    display: grid;
+
+}
+
+.main-img1 {
+    justify-self: end;
+    float: right;
+    margin-top: 35px;
+    opacity: 85%;
+}
+
+.txt1 {
+    font-size: 26px;
+    width: 380px;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    justify-self: center;
+    margin-top: -250px;
+}
+.header > div{
+    transition: 1s ease;
+}
+.header > div:hover{
+    font-family: 'Times New Roman', Times, serif;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.main-img2 {
+    float: left;
+    align-self: start;
+    margin-top: -250px;
+    opacity: 85%;
+}
+
+.main2-img1 {
+    width: 1500px;
+
+}
+
+.main2-txt {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 28px;
+}
+
+.main2-img1 img {
+    width: 330px;
+    height: 457px;
+    margin-left: -100px;
+    margin-right: 60px;
+    padding: 15px 30px;
+    transition: 1s ease;
+
+}
+
+.main2-img1 img:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 1s ease;
+}
+
+.one {
+    margin-left: 510px;
+}
+
+.footer {
+    background: url(Wedding-Armenia-Findin-Feature\ 1.png);
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: end;
+}
+
+h3:hover {
+    color: rgb(51, 80, 80);
+}
+@media only screen and (max-width: 900px){
+    .log {
+        width: 65%;
+        
+    }
+    img{
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+}
